@@ -1,7 +1,7 @@
 // const drums = document.querySelectorAll(".drum");
 const drums = $(".drum");
 
-$("body").css("background-color", "yellow");
+$("body").css("background-color", "grey");
 
 for (let i = 0; i < drums.length; i++) {
   drums[i].addEventListener("click", function () {

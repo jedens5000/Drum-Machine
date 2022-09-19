@@ -44,7 +44,8 @@ for (let i = 0; i < drums.length; i++) {
   });
 }
 
-document.addEventListener("keydown", typeDrum);
+// document.addEventListener("keydown", typeDrum);
+$(typeDrum).keydown(typeDrum);
 
 function typeDrum(key) {
   switch (key.key) {

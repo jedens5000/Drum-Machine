@@ -1,4 +1,3 @@
-// const drums = document.querySelectorAll(".drum");
 const drums = $(".drum");
 
 $("body").css("background-color", "#283149");
@@ -44,7 +43,6 @@ for (let i = 0; i < drums.length; i++) {
   });
 }
 
-// document.addEventListener("keydown", typeDrum);
 $(typeDrum).keydown(typeDrum);
 
 function typeDrum(key) {
